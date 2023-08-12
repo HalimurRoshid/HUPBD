@@ -1,0 +1,113 @@
+/****** Default CSS Start ******/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/****** Default CSS End ******/
+/****** Common CSS Start ******/
+.primary-btn {
+  margin-top: 24px;
+  background: #fe3c47;
+  border: 2px solid #fe3c47;
+  line-height: 32px;
+  padding: 5px 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  color: #000000;
+}
+.section-description {
+  font-size: 1.1rem;
+  line-height: 32px;
+  font-weight: 400;
+  color: #4d4d4d;
+  margin-bottom: 24px;
+}
+/****** Common CSS End ******/
+/****** Header Section CSS Start ******/
+.menu {
+  background-color: #fe3c47;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  width: 8rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+}
+nav ul a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #fff;
+}
+.header-section {
+  text-align: center;
+  background-image: url(../images/header_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+.header-btn > a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.header-btn {
+  transition: ease-in all 0.3s;
+}
+.header-btn:hover {
+  background: #fe0917;
+  border: 2px solid #fe3c47;
+  color: #ffffff;
+}
+.main-heading {
+  font-size: 3rem;
+  line-height: 60px;
+  font-weight: 700;
+  margin: 12px 0 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.header-description {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 32px;
+  color: #ffffff;
+  width: 900px;
+  margin: 0 auto;
+}
+/****** Header Section CSS End ******/
+/****** Donation Section CSS Start ******/
+.donation-section {
+  padding: 60px 0;
+}
+.donation-content {
+  text-align: center;
+}
+/****** Donation Section CSS End ******/
