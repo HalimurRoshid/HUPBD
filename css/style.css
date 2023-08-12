@@ -35,6 +35,7 @@
   color: #4d4d4d;
   margin-bottom: 24px;
 }
+
 /****** Common CSS End ******/
 /****** Header Section CSS Start ******/
 .menu {
@@ -110,4 +111,80 @@ nav ul a {
 .donation-content {
   text-align: center;
 }
+.donate-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px 0;
+  gap: 30px;
+}
+.donate-card {
+  background-color: #f8f9fa;
+  padding-bottom: 40px;
+}
+.donate-sec-img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.donate-heading {
+  color: #4d4d4d;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+.donate-description {
+  padding: 0 20px;
+  color: #4d4d4d;
+  line-height: 1.5;
+  word-spacing: 1px;
+}
 /****** Donation Section CSS End ******/
+/****** Volunteers Section CSS Start ******/
+.volunteers-section {
+  background-color: #f9fafb;
+  padding: 60px 0;
+}
+.volunteers-content {
+  text-align: center;
+}
+.volunteers-card {
+  text-align: center;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.volunteers-img {
+  width: 100%;
+}
+.volunteers-name {
+  text-transform: uppercase;
+  margin: 0.7rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.volunteers-title {
+  color: #808080;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.volunteers-link {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+  background-color: #eee;
+}
+.volunteers-link > a {
+  background-color: #fff;
+  display: inline-block;
+  padding: 1.3rem;
+  border-radius: 10px;
+}
+/****** Volunteers Section CSS End ******/
